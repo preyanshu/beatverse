@@ -187,7 +187,7 @@ const MusicGenerator: React.FC = () => {
       {(isUploading || isSubmitting) && (
         <Loader className="animate-spin w-5 h-5 mx-auto mr-3" />
       )}
-      {isUploading ? 'Uploading' : isSubmitting ? 'Submitting' : 'Submit (0.002 tBNB)'}
+      {isUploading ? 'Uploading' : isSubmitting ? 'Submitting' : 'Submit (0.002 ETH)'}
     </div>
   </button>
 </div>
