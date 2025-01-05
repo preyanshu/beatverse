@@ -144,7 +144,7 @@ const TodayPage = () => {
           <DollarSign className="text-purple-500" />
           Total Funds:{" "}
           <span className="font-semibold text-gray-300">
-          {(Math.round(parseFloat(ethers.formatEther(BigInt(totalFunds || 0))) * 1000) / 1000).toFixed(3)} tBNB
+          {(Math.round(parseFloat(ethers.formatEther(BigInt(totalFunds || 0))) * 1000) / 1000).toFixed(3)} ETH
           </span>
         </p>
       </div>
