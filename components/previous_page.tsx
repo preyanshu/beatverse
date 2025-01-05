@@ -129,7 +129,7 @@ const PreviousPage: React.FC = () => {
               <h2 className="text-xl font-semibold">{contest.theme}</h2>
             </div>
             <p className=" mb-4">
-              Voter Share: <span className="font-medium">{(Math.round(parseFloat(ethers.formatEther(BigInt(contest.voterShare || 0))) * 1000) / 1000).toFixed(3)} tBNB</span>
+              Voter Share: <span className="font-medium">{(Math.round(parseFloat(ethers.formatEther(BigInt(contest.voterShare || 0))) * 1000) / 1000).toFixed(3)} ETH</span>
             </p>
             <p className=" mb-4">
               <Calendar className="inline-block w-4 h-4 mr-1" />
@@ -170,7 +170,7 @@ const PreviousPage: React.FC = () => {
       </div>
       <div className="flex items-center gap-2">
         <DollarSign className="text-cyan-600 w-4 h-4" />
-        <p className="text-gray-700 text-sm">Payout: {(Math.round(parseFloat(ethers.formatEther(BigInt(winner.payout || 0))) * 1000) / 1000).toFixed(3)} tBNB</p>
+        <p className="text-gray-700 text-sm">Payout: {(Math.round(parseFloat(ethers.formatEther(BigInt(winner.payout || 0))) * 1000) / 1000).toFixed(3)} ETH</p>
       </div>
     </div>
   
